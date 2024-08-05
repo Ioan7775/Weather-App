@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.3/axios.min.js"></script>
+</head>
+<body>
+    
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="what city ?..">
+            <img src="images/search.png" alt="search" id="search">
+        </div>
+
+        <div class="weather">
+            <div class="something">
+                <img src="#" alt="nema" id="icon">
+            </div>
+
+            <div id="main">
+                <h1 id="temp">
+
+                </h1>
+                <h2 id="city">
+
+                </h2>
+            </div>
+
+            <div id="additional">
+                <div id="humidity">
+                    <img src="images/humidity.png" alt="humidity" class="img">
+
+                    <div class="container">
+                        <h3 id="humidityh1">
+
+                        </h3>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                
+                <div id="windspeed">
+                    <img src="images/wind.png" alt="wind" class="img">
+                    <div class="container">
+                        <h3 id="windspeedh1">
+
+                        </h3>
+                        <p>Wind Speed</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
